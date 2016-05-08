@@ -1,4 +1,21 @@
-h1 {
-  margin: 0 auto;
-  color: blue;
+body {
+  text-align: center;
+  font: 400 24px "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.input {
+  width: 80%;
+  height: 2em;
+  font-size: 18px;
+}
+
+.submit {
+  width: 30%;
+  height: 3em;
+  border-radius: 0;
+}
+
+.output {
+  font-size: 64px;
+  display: none;
 }
