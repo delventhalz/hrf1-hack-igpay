@@ -27,8 +27,7 @@ $('.submit').on('click', function() {
 
   var igpay = anslatetray( $('.input').val() );
   $('.input').val('');
-  $('.output').text( igpay );
-  $('.output').fadeIn();
+  $('.output').text( igpay ).fadeIn();
 
   // Chrome's native text-to-speech
   window.speechSynthesis.speak( new SpeechSynthesisUtterance(igpay) );
